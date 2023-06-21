@@ -194,6 +194,9 @@
     padding: 23px 122px;
     margin-top: auto;
     justify-content: space-evenly;
+    max-width: 80vw;
+    margin-top: 200px;
+    max-height:fit-content;
   }
   
   .footer ul {
@@ -254,6 +257,45 @@
     background-color: #17072f;
   }
   
+  .secondSection1 {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+  }
+  
+  .secondSection1 h1 {
+    font-size: 1.9rem;
+  }
+  
+  .secondSection1 .box {
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 50px 0;
+    display: flex;
+  }
+  
+  .secondSection1 .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 6vw;
+  }
+  
+  .secondSection1 .box {
+    background: white;
+    width: 77vw;
+    height: 2px;
+    margin: 60px 0;
+    display: flex;
+  }
+  
+  .secondSection1 .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 100px;
+  }
   
   #skills {
     margin: auto;
@@ -442,8 +484,9 @@
   }
 
   .projectSection {
-    max-width: 50vw;
-    height: 141vh;
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
   }
   
   footer {
@@ -469,6 +512,9 @@
 
 .contactSection {
   padding: 50px 0;
+  max-width: 80vw;
+    margin: auto;
+    height: 80vh;
 }
 
 .contactForm {
@@ -502,7 +548,7 @@ textarea {
 
 button.btn {
   padding: 12px 165px;
-  margin-top: 15px;
+  margin-top: 2px;
   background: #531d77;
   color: white;
   border: 2px solid rgb(170 170 228);
@@ -515,16 +561,19 @@ button.btn {
 select {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid rgb(170 170 228);
   border-radius: 5px;
   font-family: "Poppins", sans-serif;
   background-color: transparent; 
   color: white; 
+  font-size: 15px;
 }
 
 option {
   background-color: transparent; 
   color: transparent;
+  font-size: 15px;
+
 }
 
 button.btn:hover {
