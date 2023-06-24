@@ -15,10 +15,7 @@
     align-items: center;
     height: 70px;
     background-color: rgb(18, 18, 62);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+   
   }
   
   nav ul {
@@ -195,10 +192,10 @@
   
   .footer {
     display: flex;
-    padding: 23px 122px;
-    max-width: 100vw;
+    padding: 25px;
+    max-width: 95vw;
     /* height: 50vh; */
-    margin-top: 200px;
+    margin-top: 150px;
     justify-content: center;
    align-items: center;
    text-align: center;
@@ -209,7 +206,7 @@
   }
   
   .footer > div {
-    width: 223px;
+    width: 400px;
   }
   
   footer .footer-right {
@@ -219,6 +216,22 @@
     color: gray;
   }
   
+  .footer .logo img {
+    margin: 40px 0 50px 12px;
+    width: 40px;
+    justify-content: center;
+    filter: invert(100%);
+    transition: filter 0.3s ease-in-out;
+  }
+
+  .footer .logo img:hover {
+    filter: brightness(70%);
+  }
+  
+  
+  .leftSection .logo img:hover {
+    filter: brightness(70%);
+  }
   .projectSection {
     max-width: 80vw;
     margin: auto;
